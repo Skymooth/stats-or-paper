@@ -51,15 +51,15 @@ stats-or-paper/
 **Claude Code**
 
 ```bash
-git clone https://github.com/<your-name>/stats-or-paper.git ~/.claude/skills/stats-or-paper
+git clone https://github.com/skymooth/stats-or-paper.git ~/.claude/skills/stats-or-paper
 ```
 
 **DeepSeek Harness**：技能会被自动发现于 `$DSH_HOME/skills/` 或项目内 `.dsh/skills/`。
 
 ```bash
-git clone https://github.com/<your-name>/stats-or-paper.git "$DSH_HOME/skills/stats-or-paper"
+git clone https://github.com/skymooth/stats-or-paper.git "$DSH_HOME/skills/stats-or-paper"
 # 或者只给某一个项目用：
-git clone https://github.com/<your-name>/stats-or-paper.git .dsh/skills/stats-or-paper
+git clone https://github.com/skymooth/stats-or-paper.git .dsh/skills/stats-or-paper
 ```
 
 **其他 agent**：它就是一个 SKILL.md 加若干参考文件。让 agent 读 `SKILL.md`，或把它的内容作为系统提示的一部分。
